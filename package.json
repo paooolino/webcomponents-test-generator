@@ -1,0 +1,29 @@
+{
+  "name": "webcomponents-test-generator",
+  "version": "1.0.0",
+  "description": "A nodeJS script that generates TDD tests to begin coding a redux-react web application used by paooolino/webcomponents repository.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paooolino/webcomponents-test-generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paooolino/webcomponents-test-generator/issues"
+  },
+  "homepage": "https://github.com/paooolino/webcomponents-test-generator#readme",
+  "devDependencies": {
+    "babel-core": "^6.10.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "expect.js": "^0.3.1",
+    "mocha": "^2.5.3",
+    "webpack": "^1.13.1"
+  }
+}
